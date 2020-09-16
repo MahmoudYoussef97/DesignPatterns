@@ -1,0 +1,12 @@
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\bin\Debug\netcoreapp3.1\DesignPatternsPracticing.exe
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\bin\Debug\netcoreapp3.1\DesignPatternsPracticing.deps.json
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\bin\Debug\netcoreapp3.1\DesignPatternsPracticing.runtimeconfig.json
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\bin\Debug\netcoreapp3.1\DesignPatternsPracticing.runtimeconfig.dev.json
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\bin\Debug\netcoreapp3.1\DesignPatternsPracticing.dll
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\bin\Debug\netcoreapp3.1\DesignPatternsPracticing.pdb
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\obj\Debug\netcoreapp3.1\DesignPatternsPracticing.csprojAssemblyReference.cache
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\obj\Debug\netcoreapp3.1\DesignPatternsPracticing.AssemblyInfoInputs.cache
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\obj\Debug\netcoreapp3.1\DesignPatternsPracticing.AssemblyInfo.cs
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\obj\Debug\netcoreapp3.1\DesignPatternsPracticing.dll
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\obj\Debug\netcoreapp3.1\DesignPatternsPracticing.pdb
+D:\Technical\repos\DesignPatternsPracticing\DesignPatternsPracticing\obj\Debug\netcoreapp3.1\DesignPatternsPracticing.genruntimeconfig.cache
