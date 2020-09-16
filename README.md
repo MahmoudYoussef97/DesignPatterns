@@ -1,1 +1,1 @@
-"# DesignPatterns" 
+** Design Pattern Series
