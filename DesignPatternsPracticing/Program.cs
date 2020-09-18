@@ -1,5 +1,6 @@
 ﻿using DesignPatternsPracticing.Iterator;
 using DesignPatternsPracticing.State;
+using DesignPatternsPracticing.Strategy;
 using System;
 
 namespace DesignPatternsPracticing
@@ -9,22 +10,29 @@ namespace DesignPatternsPracticing
         static void Main(string[] args)
         {
             // ---------------- Memento Design Pattern --------------------
-            //Memnto();
+            // Memnto();
             // ---------------- State Design Pattern --------------------
-            //State();
+            // State();
+            // Iterator();
+            VideoStore videoStore = new VideoStore();
+            videoStore.Store("Graduation", new Mp4Compressor(), new BlackAndWhiteFilter());
+            videoStore.Store("Party", new AviCompressor(), new HighContrastFilter());
+            
+        }
+        private static void Iterator()
+        {
             ProductHistory productHistory = new ProductHistory();
             productHistory.Push("a");
             productHistory.Push("b");
             productHistory.Push("c");
             IIterator<string> it = productHistory.CreateIterator();
-            while(it.HasNext())
+            while (it.HasNext())
             {
                 string product = it.Current();
                 Console.WriteLine(product);
                 it.Next();
             }
         }
-
         private static void State()
         {
             Canvas canvas = new Canvas();
