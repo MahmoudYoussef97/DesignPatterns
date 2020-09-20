@@ -1,6 +1,7 @@
 ﻿using DesignPatternsPracticing.Iterator;
 using DesignPatternsPracticing.State;
 using DesignPatternsPracticing.Strategy;
+using DesignPatternsPracticing.Template;
 using System;
 
 namespace DesignPatternsPracticing
@@ -14,10 +15,17 @@ namespace DesignPatternsPracticing
             // ---------------- State Design Pattern --------------------
             // State();
             // Iterator();
+            // Strategy();
+            var setttingsWindow = new SettingsWindow();
+            setttingsWindow.Close();
+            var historyWindow = new HistoryWindow();
+            historyWindow.Close();
+        }
+        private static void Strategy()
+        {
             VideoStore videoStore = new VideoStore();
             videoStore.Store("Graduation", new Mp4Compressor(), new BlackAndWhiteFilter());
             videoStore.Store("Party", new AviCompressor(), new HighContrastFilter());
-            
         }
         private static void Iterator()
         {
