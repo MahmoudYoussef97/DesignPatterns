@@ -16,6 +16,11 @@ namespace DesignPatternsPracticing
             // State();
             // Iterator();
             // Strategy();
+            // Template();
+
+        }
+        private static void Template()
+        {
             var setttingsWindow = new SettingsWindow();
             setttingsWindow.Close();
             var historyWindow = new HistoryWindow();
